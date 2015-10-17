@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIGestureRecognizerDelegate, UIPreviewActionItem>
+@interface PreviewViewController : UIViewController <UIPreviewActionItem>
 
 
 @end

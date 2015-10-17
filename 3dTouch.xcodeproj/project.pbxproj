@@ -13,6 +13,7 @@
 		74162F561BC73F4B00967FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74162F541BC73F4B00967FBF /* Main.storyboard */; };
 		74162F581BC73F4B00967FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74162F571BC73F4B00967FBF /* Assets.xcassets */; };
 		74162F5B1BC73F4B00967FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74162F591BC73F4B00967FBF /* LaunchScreen.storyboard */; };
+		74162F631BC7F96B00967FBF /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74162F621BC7F96B00967FBF /* PreviewViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		74162F571BC73F4B00967FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74162F5A1BC73F4B00967FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74162F5C1BC73F4B00967FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74162F621BC7F96B00967FBF /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+		74162F641BC7F98700967FBF /* PreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				74162F4F1BC73F4B00967FBF /* AppDelegate.m */,
 				74162F511BC73F4B00967FBF /* ViewController.h */,
 				74162F521BC73F4B00967FBF /* ViewController.m */,
+				74162F641BC7F98700967FBF /* PreviewViewController.h */,
+				74162F621BC7F96B00967FBF /* PreviewViewController.m */,
 				74162F541BC73F4B00967FBF /* Main.storyboard */,
 				74162F571BC73F4B00967FBF /* Assets.xcassets */,
 				74162F591BC73F4B00967FBF /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				74162F531BC73F4B00967FBF /* ViewController.m in Sources */,
 				74162F501BC73F4B00967FBF /* AppDelegate.m in Sources */,
 				74162F4D1BC73F4B00967FBF /* main.m in Sources */,
+				74162F631BC7F96B00967FBF /* PreviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
